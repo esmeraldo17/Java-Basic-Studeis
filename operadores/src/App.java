@@ -26,5 +26,8 @@ public class App {
         posNum--; // decremento
         System.out.println(posNum);
         System.out.println(-- posNum);
+
+        boolean verify = true;
+        System.out.println(!verify);
     }
 }
