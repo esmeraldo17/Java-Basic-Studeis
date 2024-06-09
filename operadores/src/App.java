@@ -38,6 +38,30 @@ public class App {
         String resultado = a==b ? "verdadeira" : "falso";
         System.out.println(resultado);
 
+        // Operadores relacionais
+
+        int number1 = 1;
+        int number2 = 2;
+
+        boolean yesNo = number1 == number2;
+
+        System.out.println(yesNo);
+
+        yesNo = number1 != number2;
+        System.out.println(yesNo);
+
+        yesNo = number1 > number2;
+        System.out.println(yesNo);
+
+        yesNo = number1 >= number2;
+        System.out.println(yesNo);
+
+
+        yesNo = number1 < number2;
+        System.out.println(yesNo);
+
+        yesNo = number1 <= number2;
+        System.out.println(yesNo);
         
     }
 }
