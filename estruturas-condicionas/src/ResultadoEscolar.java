@@ -10,12 +10,10 @@ public class ResultadoEscolar {
         //     System.out.println("Reprovado");
 
         // String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
-
         // System.out.println(resultado);
 
 
         String resultado = nota >= 7 ? "Aprovado" : nota >= 5 && nota < 7 ? "Recuperacao" : "Reprovado";
-
         System.out.println(resultado);
     }
 }
