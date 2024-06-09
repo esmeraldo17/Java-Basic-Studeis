@@ -29,5 +29,15 @@ public class App {
 
         boolean verify = true;
         System.out.println(!verify);
+
+        // Operador ternario
+
+        int a, b;
+        a = 5;
+        b = 6;
+        String resultado = a==b ? "verdadeira" : "falso";
+        System.out.println(resultado);
+
+        
     }
 }
