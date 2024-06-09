@@ -62,6 +62,17 @@ public class App {
 
         yesNo = number1 <= number2;
         System.out.println(yesNo);
+
+        //Operadores logicos
+
+        boolean condition1 = true;
+        boolean condition2 = false;
+
+        if (condition1 && condition2){
+            System.out.println("As duas condicoes sao verdadeiras");
+        }else if (condition1 || condition2){
+            System.out.println("Uma das condicoes e verdadeira");
+        }
         
     }
 }
