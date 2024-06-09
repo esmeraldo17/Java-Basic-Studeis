@@ -16,5 +16,8 @@ public class Usuario {
 
         smartTv.aumentarVolume();
         System.out.println("Novo Status -> Volume Atual: " + smartTv.volume);
+
+        smartTv.mudarCanal(14);
+        System.out.println("Novo Status -> Canal Atual: " + smartTv.canal);
     }
 }
